@@ -1,6 +1,6 @@
 const MongoClient = require('mongodb').MongoClient;
 
-const url = 'mongodb+srv://ReactAppUser:r3act@cluster0.ns7bs.mongodb.net/history?retryWrites=true&w=majority';
+const url = '[your database connection here]';
 
 
 const createHistory = async (req, res, next) => {
