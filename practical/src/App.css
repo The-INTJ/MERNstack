@@ -1,0 +1,227 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Item CSS */
+.inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.inline text {
+  margin: 10px;
+  /* margin-left: 20%; */
+}
+.inline input {
+  margin: 10px;
+}
+
+.inline2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.inline2 text {
+  margin: 10px;
+  /* margin-left: 20%; */
+}
+.inline2 input {
+  margin: 10px;
+}
+
+.downline {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.downline textarea {
+  margin: 10px;
+}
+
+.cont-1 {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+
+.cont-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.cont-3 {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.spacer {
+  flex-basis: 1;
+  border: 5px solid #61dafb;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.spacer-2 {
+  width: 50%;
+  height: 30px;
+  /* flex-basis: 1; */
+  border: 5px solid #61dafb;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.spacer-2 label {
+  font-weight: medium;
+  color: #7fff00;
+}
+
+/*BUTTON STUFF*/
+
+.wrap {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  margin: 20px;
+  width: 100%;
+  min-height: 60px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #4FD1C5;
+background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 0px 6px 12px rgba(79,209,197,.64);
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  }
+
+  .button:hover {
+    color: #313133;
+    opacity: 1;
+    border: 3px solid #7fff00;
+  }
+
+.button-small {
+  margin: 3px;
+  width: 20%;
+  min-height: 15px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-weight: 300;
+  color: #313133;
+  background: #4FD1C5;
+background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 0px 6px 12px rgba(79,209,197,.64);
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  }
+
+  .button-small:hover {
+    color: #313133;
+    opacity: 1;
+    border: 3px solid #7fff00;
+    margin: 3px;
+    width:21%
+  }
+
+  .button-del {
+    /* margin: 20px;
+    width: 50%;
+    min-height: 30px; */
+    font-family: 'Nunito', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    font-weight: 500;
+    color: #313133;
+    background: #4FD1C5;
+  background: linear-gradient(90deg, rgb(245, 191, 105) 0%, rgb(248, 161, 0) 100%);
+    border: 3px solid rgb(248, 161, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    }
+  
+    .button-del:hover {
+      color: #313133;
+      opacity: 1;
+      border: 3px solid rgb(248, 120, 0);
+    }
+
+.add-delete-cont-1 {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.add-delete-cont-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.add-item-text {
+  flex-basis: 2;
+}
+
+.add-delete-item {
+  background-color: #313133;
+  box-shadow: 0px 6px 12px rgba(79,209,197,.64);
+  border-radius: 5px;
+  font-size: 80%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.add-item-text {
+  margin: 2px;
+  border-radius: 5px;
+  box-shadow: 2px 6px 12px rgba(79,209,197,.64);
+  resize: none;
+}
